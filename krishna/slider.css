@@ -1,0 +1,166 @@
+main{
+    display: flex;
+    background-color:coral;
+    flex-direction: column;
+    margin-top: 30px;
+
+}
+#sliderbox{
+    display: flex;
+    flex-direction: row;
+    width: 500vw;
+    animation: move infinite 20s;
+    position: relative;
+}
+img{
+    width: 100vw;
+    height: 80vh;
+
+}
+#outerbox{
+    overflow-x: hidden;
+}
+@keyframes move{
+    0%{
+        left: 0vw;
+    }
+    20%{
+        left: 0vw;
+    }
+    25%{
+        left: -100vw;
+    }
+    45%{
+        left: -100vw;
+    }
+    50%{
+        left: -200vw;
+    }
+    70%{
+        left: -200vw;
+    }
+    75%{
+        left: -300vw;
+    }
+    95%{
+        left: -300vw;
+    }
+
+}
+#welcome{
+    height: 90vh;
+    width: 100vw;
+    border: rgba(0, 0, 0.286);
+    position: absolute;
+    text-align: center;
+    border-radius: 20px;
+    font-size: xx-large;
+    color:white;
+    text-decoration: underline;
+    filter: drop-shadow(15px 15px 50px black);
+}
+#about{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+    position: relative;
+    gap: 20px;
+    color: blue;
+}
+#top-items{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100vw;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.top-items{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+#top-items div img{
+    height: 200px;
+    width: 200px;
+}
+#chef-info{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100vw;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.chef-desc{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: fit-content;
+}
+.chef-desc:hover{
+    box-shadow: 0px 0px 20px black;
+    scale: 1.1;
+    transition-duration: 200ms;
+}
+#chef-info div img{
+    height: 200px;
+    width: 200px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
